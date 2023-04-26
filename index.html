@@ -4,12 +4,11 @@
   <head>
     <title>Trivia Time</title>
     <link rel="stylesheet" href="./assets/style.css" />
-    <script src="script.js"></script>
   </head>
   <body>
     <div class="container">
-      <div id="title">Trivia time!</div>
-      <div id="introduction">
+      <div id="title" class="hidden">Trivia time!</div>
+      <div id="introduction" class="hidden">
         Try to answer the following questions within the time limit. Keep in
         mind that incorrect answers will penalize your score time by 5 seconds!
       </div>
@@ -20,7 +19,6 @@
           <button class="btn">Answer 2</button>
           <button class="btn">Answer 3</button>
           <button class="btn">Answer 4</button>
-          <button class="btn">Answer 5</button>
         </div>
       </div>
       <div class="controls">
@@ -28,5 +26,6 @@
         <button id="next-btn" class="next-btn btn hide">Next question</button>
       </div>
     </div>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
