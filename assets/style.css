@@ -16,6 +16,18 @@
     padding-bottom: 15px;
 }
 
+.timer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(141, 122, 145);
+  }
+
+
 body{
     padding: 0;
     margin: 0;
@@ -27,6 +39,7 @@ body{
     background-color: rgb(125, 67, 125);
 
 }
+
 
 .container{
     width: 800px;
@@ -73,4 +86,22 @@ body{
 
 .hide{
     display: none;
+}
+
+.correct {
+    background-color: rgb(88, 175, 88);
+}
+
+.wrong {
+    background-color: rgb(190, 106, 106)
+}
+
+#score-container{
+    width: 800px;
+    max-width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 40px;
+    box-shadow: 0 0 10px 2px;
+    justify-content: center;
 }
